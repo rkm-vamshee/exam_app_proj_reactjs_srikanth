@@ -1,0 +1,21 @@
+
+React with Vite 
+Config related to port
+TailwindCSS
+Folder structure
+LOGIN
+
+
+
+===========================
+Port change
+
+From Terminal
+npm run dev -- --port 3000
+
+
+2nd method - package.json
+    "dev": "vite --port 3000",
+
+
+3rd method - vite.config.ts
