@@ -19,3 +19,15 @@ npm run dev -- --port 3000
 
 
 3rd method - vite.config.ts
+
+====================
+LOGIN
+Seperate Endpoints 
+Add Routing 
+Dashboard
+Protecting Routes 
+StorageManager 
+
+
+
+

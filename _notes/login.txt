@@ -1,0 +1,16 @@
+=======================
+Login Page
+=======================
+UI Creation
+Basic Validation -  Basic Submit - Basic Alert- Basic Redirect
+
+axios 
+realtime post api 
+toastr
+during api call => show Loader
+
+React Hook Form => 
+        => no seperate state for values
+        => Not Focusing on api call 
+        => gets data from form and do validation
+
