@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { toast, ToastContainer } from "react-toastify";
 import { Endpoints } from "../../shared/constants/Endpoints";
 import { useNavigate } from "react-router-dom";
+import { StorageManager } from "../../shared/StorageManager";
 
 const Login2 = () => {
     const { register, handleSubmit, formState: { errors, isValid } } = useForm({
@@ -42,7 +43,8 @@ const Login2 = () => {
                         toast.error("Invalid Email and password")
                     } else {
                         // alert("Successful login");
-                        localStorage.setItem('token', res.data.data.token)
+                        StorageManager.setToken(res.data.data.token);
+                        // localStorage.setItem('token', res.data.data.token)
                         toast.success("Successfull Login")
 
                         /*  Redirect Code */

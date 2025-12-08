@@ -1,7 +1,8 @@
+import DashboardLayout from "../shared/ui/templates/DashboardLayout"
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+   <DashboardLayout/>
   )
 }
 
