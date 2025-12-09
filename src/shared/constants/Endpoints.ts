@@ -4,9 +4,18 @@
 
 // }
 
+
+
+/* 
+
+http://82.112.238.131:3200/api/student-categories
+
+
+*/
+
 const BASE_URL = "http://82.112.238.131:3200/api/";
 
 export  class Endpoints {
     public static LOGIN = BASE_URL+"admin/login";
-    public static CATEGORIES = BASE_URL+"admin/login";
+    public static CATEGORIES = BASE_URL+"student-categories";
 }

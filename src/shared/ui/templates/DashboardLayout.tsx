@@ -28,7 +28,7 @@ const DashboardLayout = (props:any) => {
           </Link>
         
       </div>
-      <div className="container bg-amber-200">
+      <div className="container bg-amber-200 p-3">
         {props.children}
       </div>
 

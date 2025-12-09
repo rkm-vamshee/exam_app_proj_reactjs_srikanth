@@ -46,7 +46,7 @@ function App() {
             <Route path={RouteConstants.DASHBOARD} element={<Dashboard />} />
             <Route path={RouteConstants.CATEGORIES}  element={<ListCategories />} />
             <Route path={RouteConstants.CATEGORY_CREATE}  element={<CreateCategory />} />
-            <Route path={RouteConstants.CATEGORY_EDIT}  element={<EditCategory />} />
+            <Route path={RouteConstants.CATEGORY_EDIT+"/:id"}  element={<EditCategory />} />
             
           </Route>
 
