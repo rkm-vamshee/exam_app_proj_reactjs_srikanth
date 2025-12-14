@@ -2,13 +2,16 @@ import { BrowserRouter, Navigate, Outlet, Route, Routes } from 'react-router-dom
 import './App.css'
 // import Login from './core/auth/Login'
 import Login2 from './core/auth/Login2'
-import Dashboard from './features/Dashboard'
 import NotFound from './core/NotFound'
-import { StorageManager } from './shared/StorageManager'
-import ListCategories from './features/admin/categories/ListCategories'
 import CreateCategory from './features/admin/categories/CreateCategory'
 import EditCategory from './features/admin/categories/EditCategory'
+import ListCategories from './features/admin/categories/ListCategories'
+import ListQuestions from './features/admin/questions/ListQuestions'
+import ListSubcategories from './features/admin/subcategories/ListSubcategories'
+import Dashboard from './features/Dashboard'
 import { RouteConstants } from './shared/constants/RouteConstants'
+import { StorageManager } from './shared/StorageManager'
+import CreateQuestion from './features/admin/questions/CreateQuestion'
 
 
 const ProtectedRoute = () => {
@@ -48,6 +51,11 @@ function App() {
             <Route path={RouteConstants.CATEGORY_CREATE}  element={<CreateCategory />} />
             <Route path={RouteConstants.CATEGORY_EDIT+"/:id"}  element={<EditCategory />} />
             
+            <Route path={RouteConstants.SUB_CATEGORIES}  element={<ListSubcategories />} />
+            <Route path={RouteConstants.QUESTIONS}  element={<ListQuestions />} />
+
+            <Route path={RouteConstants.QUESTIONS_CREATE}  element={<CreateQuestion />} />
+
           </Route>
 
 

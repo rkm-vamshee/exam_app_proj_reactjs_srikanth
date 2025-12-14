@@ -1,0 +1,31 @@
+{
+    "subjectId": "692162d670ce7665e5240c02",
+    "chapterId": "693825405da7c2a476662a94",
+    "question": "<p>10+20=</p>",
+    "hint": "<p>10+20=</p>",
+    "explaination": "<p>10+20=</p>",
+    "questionType": "Multiple Choice",
+    "noOfOptions": "4",
+    "tableOptionsData": [
+        {
+            "id": 1,
+            "optionDisplay": "30",
+            "isCorrectAnswer": false
+        },
+        {
+            "id": 2,
+            "optionDisplay": "20",
+            "isCorrectAnswer": true
+        },
+        {
+            "id": 3,
+            "optionDisplay": "10",
+            "isCorrectAnswer": false
+        },
+        {
+            "id": 4,
+            "optionDisplay": "5",
+            "isCorrectAnswer": false
+        }
+    ]
+}
