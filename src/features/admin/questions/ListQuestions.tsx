@@ -111,7 +111,7 @@ const ListQuestions = () => {
                         <tbody>
                             {list.map((item: any, index: number) => (<tr key={"catList" + index} className="border-b">
                                 <td className="p-3">{index + 1}</td>
-                                <td className="text-left">{item.name}</td>
+                                <td className="text-left">{item.question}</td>
                                 <td>
                                     <Link to={RouteConstants.CATEGORY_EDIT + "/" + item._id} className="btn-primary p-0">Edit</Link>
                                     <button type="button" className="btn-danger" onClick={() => onDelete(item)}>Delete</button>
